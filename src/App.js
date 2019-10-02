@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './compontes/header';
+import Aws from './compontes/awesome';
+import Well from './compontes/well';
+import Specialdiv from './compontes/special';
+import Video from './compontes/video';
+import Cool from './compontes/cool';
+import Screenshots from './compontes/screenshots';
+import Pricing from './compontes/price';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Header/>
+      <Well/>
+      <Specialdiv/>
+      <Aws/>
+      <Video/>
+      <Cool/>
+      <Screenshots/>
+      <Pricing/>
     </div>
   );
 }
